@@ -1,0 +1,38 @@
+.image_hover {
+  -webkit-transition: .15s;
+  transition: .15s;
+  position: relative;
+  display: block;
+  background-size: cover;
+  background-position: center;
+}
+
+.image_hover:hover::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: .5;
+  -webkit-transition: .15s;
+  transition: .15s;
+}
+
+#breadcrumb li {
+  padding: 0;
+}
+
+.gallery_image {
+  height: 150px;
+}
+
+.stati_image {
+  height: 300px;
+}
+
+.gaidi_image {
+  height: 150px;
+}
+
