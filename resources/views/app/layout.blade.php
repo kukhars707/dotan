@@ -49,7 +49,7 @@
 <div id="layout" class="boxed full">
     <header id="header">
 
-        <div class="row clearfix">
+        <div class="row clearfix full-width">
             <div class="sticky_true">
                 <div class="c_head clearfix">
                     <!-- NAVIGATION -->

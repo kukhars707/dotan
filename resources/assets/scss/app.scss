@@ -34,3 +34,36 @@
 .gaidi_image {
     height: 150px;
 }
+
+.sf-menu>li>a>img {
+    height: 24px;
+}
+
+.single_post img {
+    display: inline-block;
+}
+
+.single_post ul li {
+    list-style-image: url(../images/marker.png);
+    // background: url(../images/marker.png) no-repeat 0 4px;
+    list-style-type: square;
+    padding: 0;
+}
+
+#breadcrumb li {
+    list-style-image: none;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.sticky {
+    width: 100%!important;
+}
+
+@media screen and (max-width: 767px) {
+    .posts iframe {
+        height: 100%!important;
+    }
+}
